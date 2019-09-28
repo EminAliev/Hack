@@ -7,8 +7,11 @@ import java.util.TreeSet;
 
 public class Society {
 
-    Minister minister = new Minister();
+    //в каждой сессии только один чиновник
+    Minister minister;
+    //множество всех плательщиков
     TreeSet<Payer> payers;
+    //множество заплативших
     TreeSet<Payer> mustPay;
 
     //при создании игры добавляет игроков
@@ -16,16 +19,17 @@ public class Society {
         return this.payers.add(payer);
     }
 
-    //добавляет всех ботов в перечень тех, кто должен заплатить налог
-    private void endOfMonth() {
+    //добавляет всех плательщиков в перечень тех, кто должен заплатить налог, логическое начало месяца
+    private void beginOfMonth() {
         mustPay.clear();
         mustPay.addAll(payers);
     }
 
-    //когда бот заплатил, удаляет его из списка должников
+    //когда плательщик заплатил, удаляет его из списка должников
     public boolean payed(Payer p) {
         return this.mustPay.remove(p);
     }
-    
+
+
 
 }

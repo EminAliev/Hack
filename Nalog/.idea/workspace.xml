@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05e41d6e-e031-4c88-99e1-bafc7f1e9c33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/Society.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/AbstractPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Collector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Enterpreneur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Minister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/PhysicalFaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/AbstractHuman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Collector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Enterpreneur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Freelancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Freelancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/JuridicalFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/JuridicalFace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Minister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/OAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/OAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Payer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Payer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/PhysicalFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/PhysicalFace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die/mass/User/PhysicalFaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/example/die/mass/Society.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/Society.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +69,7 @@
       <updated>1569655593317</updated>
       <workItem from="1569655596545" duration="7000" />
       <workItem from="1569655627143" duration="378000" />
-      <workItem from="1569656037111" duration="1591000" />
+      <workItem from="1569656037111" duration="3084000" />
     </task>
     <servers />
   </component>
