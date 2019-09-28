@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_photo"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button_fiz_face"
+        android:layout_width="210dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_primary_selector"
+        android:text="Физическое лицо"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_OAO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_freelancer"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_freelancer"
+        android:layout_width="206dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_primary_selector"
+        android:text="Самозанятый"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_fiz_face"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_ip"
+        android:layout_width="178dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/button_primary_selector"
+        android:text="ИП"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_minister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_OAO"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_state"
+        android:layout_width="164dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_primary_selector"
+        android:text="Государство"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_minister"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_minister"
+        android:layout_width="219dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_primary_selector"
+        android:text="Чиновник"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_state"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ip"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_OAO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_primary_selector"
+        android:text="ОАО"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_ip"
+        app:layout_constraintEnd_toEndOf="@+id/button_ip"
+        app:layout_constraintStart_toStartOf="@+id/button_ip"
+        app:layout_constraintTop_toBottomOf="@+id/button_fiz_face"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="149dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:text="Режим игры"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/button_freelancer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

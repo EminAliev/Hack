@@ -6,12 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+import co.example.aliev.hacckk.R;
+
+public class ChooseDiffucultActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_choose_diffucult);
+
         Button begin_game = (Button) findViewById(R.id.button_begin_game);
         begin_game.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -20,19 +23,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myView, 0);
             }
         });
-        Button end_game = (Button)findViewById(R.id.button_game_exit);
-        end_game.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                System.exit(0);
-            }
-        });
-
-        Button rules = (Button)findViewById(R.id.button_game_rules);
-
-
-
     }
-
-
 }
