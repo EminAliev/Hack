@@ -1,4 +1,4 @@
-package die.mass.User;
+package co.example.die.mass.User;
 
 public interface JuridicalFace {
 

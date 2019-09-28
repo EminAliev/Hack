@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67247c1e-1a7e-4087-96a9-b7bba8401643" name="Default Changelist" comment="" />
+    <list default="true" id="05e41d6e-e031-4c88-99e1-bafc7f1e9c33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/Society.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/AbstractPayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Collector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Enterpreneur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Minister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/PhysicalFaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/AbstractHuman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Collector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Enterpreneur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Freelancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Freelancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/JuridicalFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/JuridicalFace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Minister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/OAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/OAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/Payer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/Payer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/PhysicalFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/example/die/mass/User/PhysicalFace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die/mass/User/PhysicalFaceImpl.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,16 +36,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1RQX3SXav9g8JaUjGqT7Z7EOKds" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1RSLXuPyLIIarmFx9XWaWogDK8Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JCommander" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="die.mass.User" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,22 +68,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="67247c1e-1a7e-4087-96a9-b7bba8401643" name="Default Changelist" comment="" />
-      <created>1569600093267</created>
+      <changelist id="05e41d6e-e031-4c88-99e1-bafc7f1e9c33" name="Default Changelist" comment="" />
+      <created>1569655593317</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569600093267</updated>
-      <workItem from="1569600097165" duration="2840000" />
+      <updated>1569655593317</updated>
+      <workItem from="1569655596545" duration="7000" />
+      <workItem from="1569655627143" duration="378000" />
+      <workItem from="1569656037111" duration="1591000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

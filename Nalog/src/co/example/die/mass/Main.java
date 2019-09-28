@@ -1,4 +1,4 @@
-package die.mass;
+package co.example.die.mass;
 
 public class Main {
 
