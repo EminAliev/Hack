@@ -1,4 +1,6 @@
-package die.mass.User;
+package co.example.die.mass.User;
 
-public interface Collector {
+public interface Collector extends User {
+
+    void collect();
 }

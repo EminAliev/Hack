@@ -1,6 +1,6 @@
-package die.mass.User;
+package co.example.die.mass.User;
 
-public interface Payer {
+public interface Payer extends User {
 
     boolean pay();
     void argument();

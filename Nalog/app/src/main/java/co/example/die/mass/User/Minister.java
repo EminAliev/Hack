@@ -1,5 +1,10 @@
-package die.mass.User;
+package co.example.die.mass.User;
 
 
-public class Minister extends AbstractHuman implements Collector {
+public class Minister implements Collector {
+
+    @Override
+    public void collect() {
+
+    }
 }

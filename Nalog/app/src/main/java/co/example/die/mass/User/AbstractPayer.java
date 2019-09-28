@@ -1,6 +1,8 @@
 package co.example.die.mass.User;
 
-public class PhysicalFaceImpl extends AbstractPayer implements PhysicalFace {
+public class AbstractPayer implements Payer {
+
+    String[] property;
 
     @Override
     public boolean pay() {
@@ -8,7 +10,9 @@ public class PhysicalFaceImpl extends AbstractPayer implements PhysicalFace {
     }
 
     @Override
-    public void argument() {}
+    public void argument() {
+
+    }
 
     @Override
     public boolean getSalary() {

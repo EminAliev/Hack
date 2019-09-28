@@ -1,4 +1,4 @@
 package co.example.die.mass.User;
 
-public interface PhysicalFace {
+public interface User {
 }
